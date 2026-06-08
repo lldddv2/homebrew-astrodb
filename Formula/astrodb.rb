@@ -1,8 +1,8 @@
 class Astrodb < Formula
   desc "TUI for querying, cleaning, and persisting astronomical database records"
   homepage "https://github.com/lldddv2/astrodb"
-  url "https://github.com/lldddv2/astrodb/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "c229560d9584eaa7910b6c05085fdb27c7f9320216419a4f1c383ebbff38c3e9"
+  url "https://github.com/lldddv2/astrodb/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "b2175b57822a0998343a2332c0c1f28e4099d3538e0105f8ac56f64afbbd780b"
   license "MIT"
 
   depends_on "python@3.13"
