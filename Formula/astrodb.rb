@@ -7,9 +7,16 @@ class Astrodb < Formula
   sha256 "c229560d9584eaa7910b6c05085fdb27c7f9320216419a4f1c383ebbff38c3e9"
   license "MIT"
 
-  depends_on "rust" => :build
   depends_on "pkg-config" => :build
+  depends_on "rust" => :build
+  depends_on "freetype"
+  depends_on "jpeg-turbo"
+  depends_on "libpng"
+  depends_on "libtiff"
+  depends_on "little-cms2"
+  depends_on "openjpeg"
   depends_on "python@3.13"
+  depends_on "webp"
 
   resource "astropy" do
     url "https://files.pythonhosted.org/packages/7b/92/2dce2d48347efc3346d08ca7995b152d242ebd170c571f7c9346468d8427/astropy-7.2.0.tar.gz"
